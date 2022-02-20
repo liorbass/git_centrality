@@ -1,0 +1,6 @@
+This project aims to help effectivity of refactoring by analysing git repo as a graph.
+Currently the script runs on a repo given as run argument.
+
+The current modeling is that each change is a node, there is an edge between nodes if the change is in the same commit or of it is to the same function
+
+Most of the heavy lifting is done by networkx- for graph computation and pydriller for git crawling.
